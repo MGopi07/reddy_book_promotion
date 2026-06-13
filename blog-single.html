@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post - Reddy Book Club</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Outfit:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hover-gold:hover {
+            color: #F5B041 !important;
+            border-color: #F5B041 !important;
+        }
+
+        .group-hover:hover h6 {
+            color: #F5B041 !important;
+        }
+
+        .blog-content-wrapper p {
+            font-family: 'Outfit', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/logo.png" alt="Reddy Book .Club Logo" style="height: 45px; object-fit: contain;">
+            </a>
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#navMenu" aria-controls="navMenu">
+                <i class="bi bi-list text-white fs-2"></i>
+            </button>
+            <div class="offcanvas offcanvas-end border-0" tabindex="-1" id="navMenu" aria-labelledby="navMenuLabel">
+                <div class="offcanvas-header border-bottom border-secondary border-opacity-25">
+                    <h5 class="offcanvas-title" id="navMenuLabel">
+                        <img src="assets/logo.png" alt="Reddy Book .Club Logo"
+                            style="height: 35px; object-fit: contain;">
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+                        data-bs-target="#navMenu" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-3">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Abouts us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="service.html">Service</a></li>
+                        <li class="nav-item"><a class="nav-link active fw-medium" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                    <div class="d-flex flex-column flex-lg-row align-items-center gap-3 mt-4 mt-lg-0">
+                        <!-- <button class="btn btn-outline-warning rounded-pill px-4 fw-bold w-100 w-lg-auto">Login</button> -->
+                        <button class="btn btn-warning rounded-pill px-4 fw-bold w-100 w-lg-auto">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Post Header -->
+    <section class="position-relative overflow-hidden" style="padding: 150px 0 60px;">
+        <div class="position-absolute rounded-circle"
+            style="width: 800px; height: 800px; background: radial-gradient(circle, rgba(245,176,65,0.08) 0%, transparent 60%); top: -200px; left: -200px; filter: blur(60px); pointer-events: none; z-index: 0;">
+        </div>
+
+        <div class="container position-relative z-1">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-xl-8 text-center">
+                    <span class="badge bg-warning text-dark mb-3 px-3 py-2 rounded-pill fw-bold">Sports Betting</span>
+                    <h1 class="display-4 fw-bold text-white mb-4" style="line-height: 1.2;">How to
+                        Analyze Cricket Odds Before Betting</h1>
+
+                </div>
+            </div>
+
+          
+        </div>
+    </section>
+
+    <!-- Blog Content & Sidebar -->
+    <section class="py-5 position-relative z-1">
+        <div class="container">
+            <div class="row justify-content-center g-5">
+                <!-- Main Content -->
+                <div class="col-lg-7 col-xl-8">
+                    <div class="">
+                        <div class=" justify-content-center">
+                                <div class="rounded-4 overflow-hidden shadow-lg position-relative"
+                                    style="border: 1px solid rgba(255, 255, 255, 0.1); background: #0d0f1a;">
+                                    <img src="assets/blog/premium_cricket.png"
+                                        onerror="this.src='https://placehold.co/1200x500/12151C/F5B041?text=Cricket+Betting';"
+                                        class="w-100 h-100 object-fit-cover" alt="Blog Featured Image">
+                                </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between gap-4 text-light opacity-75 small mb-5 mt-4">
+                            <div class="d-flex align-items-center">
+                                <i class="far fa-calendar-alt me-2 text-warning"></i> October 24, 2026
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="far fa-clock me-2 text-warning"></i> 5 Min Read
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="far fa-user me-2 text-warning"></i> By Reddy Experts
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-content-wrapper text-light opacity-75"
+                        style="font-size: 1.15rem; line-height: 1.8;">
+                        <p class="lead text-white opacity-100 mb-4 fw-medium fs-4">Understanding how to read and analyze
+                            cricket odds is the fundamental difference between casual betting and profitable sports
+                            investing. In this guide, we'll break down exactly what you need to look for before placing
+                            your next wager.</p>
+
+                        <h3 class="fw-bold text-white mt-5 mb-3">1. Understanding the Basics of Odds</h3>
+                        <p>Odds represent the probability of an event occurring and determine how much money you can
+                            win. In cricket betting, you'll typically encounter decimal odds. For example, if India's
+                            odds are 1.80, a successful ₹1000 bet returns ₹1800 (your ₹1000 stake + ₹800 profit).</p>
+
+                        <div class="p-4 my-5 border-start border-warning border-4 rounded-3"
+                            style="background: rgba(245, 176, 65, 0.05); backdrop-filter: blur(10px);">
+                            <i class="fas fa-quote-left fs-3 text-warning mb-3 opacity-50"></i>
+                            <p class="fst-italic fs-5 text-white mb-0">"The secret to successful betting isn't just
+                                picking winners—it's finding value where the bookmakers have underestimated the true
+                                probability of an outcome."</p>
+                        </div>
+
+                        <h3 class="fw-bold text-white mt-5 mb-3">2. Pitch Conditions and Weather</h3>
+                        <p>Unlike many other sports, cricket is heavily influenced by the environment. The pitch
+                            condition (whether it's dry, grassy, or dusty) dictates whether batsmen or bowlers have the
+                            advantage. Always check the weather forecast; rain delays can activate the DLS method,
+                            drastically shifting the odds mid-game.</p>
+
+                        <h3 class="fw-bold text-white mt-5 mb-3">3. Head-to-Head and Current Form</h3>
+                        <p>Never place a bet solely based on a team's reputation. Analyze their current form over the
+                            last five matches. Pay special attention to head-to-head statistics at specific venues. Some
+                            teams historically struggle in certain conditions or against specific spin bowling attacks.
+                        </p>
+
+                        <div class="row g-4 my-5">
+                            <div class="col-sm-6">
+                                <img src="assets/home/roulette.png"
+                                    onerror="this.src='https://placehold.co/600x400/12151C/F5B041?text=Match+Analysis';"
+                                    class="w-100 rounded-3 object-fit-cover shadow" style="height: 250px;"
+                                    alt="Analysis">
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="assets/how-to-start.png"
+                                    onerror="this.src='https://placehold.co/600x400/12151C/F5B041?text=Live+Odds';"
+                                    class="w-100 rounded-3 object-fit-cover shadow" style="height: 250px;" alt="Odds">
+                            </div>
+                        </div>
+
+                        <h3 class="fw-bold text-white mt-5 mb-3">4. Follow the Toss</h3>
+                        <p>In Test matches and ODIs, the toss can influence up to 20% of the game's outcome. If a team
+                            wins the toss on a deteriorating pitch and elects to bat first, their live odds will
+                            immediately shorten. Be ready to place your bets the moment the captain announces their
+                            decision.</p>
+
+                        <!-- Tags and Share -->
+                        <div
+                            class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mt-5 pt-4 border-top border-secondary border-opacity-25">
+                            <div class="mb-4 mb-md-0 d-flex flex-wrap align-items-center gap-2">
+                                <span class="fw-bold text-white me-2"><i
+                                        class="fas fa-tags text-warning me-2"></i>Tags:</span>
+                                <a href="#"
+                                    class="badge bg-transparent border border-secondary text-light text-decoration-none px-3 py-2 rounded-pill hover-gold transition-slow">Cricket</a>
+                                <a href="#"
+                                    class="badge bg-transparent border border-secondary text-light text-decoration-none px-3 py-2 rounded-pill hover-gold transition-slow">Strategy</a>
+                                <a href="#"
+                                    class="badge bg-transparent border border-secondary text-light text-decoration-none px-3 py-2 rounded-pill hover-gold transition-slow">Odds</a>
+                            </div>
+                            <div class="d-flex align-items-center gap-3">
+                                <span class="fw-bold text-white"><i
+                                        class="fas fa-share-alt text-warning me-2"></i>Share:</span>
+                                <a href="#" class="btn btn-sm btn-outline-light rounded-circle transition-slow"
+                                    style="width: 35px; height: 35px; display: inline-flex; align-items: center; justify-content: center;"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a href="#" class="btn btn-sm btn-outline-light rounded-circle transition-slow"
+                                    style="width: 35px; height: 35px; display: inline-flex; align-items: center; justify-content: center;"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="btn btn-sm btn-outline-light rounded-circle transition-slow"
+                                    style="width: 35px; height: 35px; display: inline-flex; align-items: center; justify-content: center;"><i
+                                        class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-5 col-xl-4">
+                    <div class="sticky-top" style="top: 120px;">
+
+                        <!-- Search Widget -->
+                        <div class="solid-trust-card p-4 rounded-4 mb-4 shadow"
+                            style="border: 1px solid rgba(255,255,255,0.05);">
+                            <h5 class="fw-bold text-white mb-4">Search</h5>
+                            <div class="position-relative">
+                                <input type="text"
+                                    class="form-control bg-transparent text-white border-secondary border-opacity-50 rounded-pill ps-4 py-3 shadow-none focus-ring focus-ring-warning"
+                                    placeholder="Search articles...">
+                                <button
+                                    class="btn border-0 position-absolute end-0 top-50 translate-middle-y text-warning pe-4 shadow-none"><i
+                                        class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+
+                        <!-- Recent Posts Widget -->
+                        <div class="solid-trust-card p-4 rounded-4 mb-4 shadow"
+                            style="border: 1px solid rgba(255,255,255,0.05);">
+                            <h5 class="fw-bold text-white mb-4">Recent Posts</h5>
+
+                            <a href="#" class="d-flex align-items-center text-decoration-none mb-4 group-hover">
+                                <div class="flex-shrink-0 rounded-3 overflow-hidden me-3 position-relative"
+                                    style="width: 80px; height: 80px;">
+                                    <img src="assets/home/roulette.png"
+                                        onerror="this.src='https://placehold.co/100x100/12151C/F5B041?text=RC';"
+                                        class="w-100 h-100 object-fit-cover" alt="Thumb">
+                                </div>
+                                <div>
+                                    <h6 class="text-white fw-bold mb-2 fs-6" style="line-height: 1.4;">Top 5 Strategies
+                                        for Lightning Roulette</h6>
+                                    <span class="text-light opacity-50 small"><i
+                                            class="far fa-clock me-1 text-warning"></i> Oct 22, 2026</span>
+                                </div>
+                            </a>
+
+                            <a href="#" class="d-flex align-items-center text-decoration-none mb-2 group-hover">
+                                <div class="flex-shrink-0 rounded-3 overflow-hidden me-3 position-relative"
+                                    style="width: 80px; height: 80px;">
+                                    <img src="assets/how-to-start.png"
+                                        onerror="this.src='https://placehold.co/100x100/12151C/F5B041?text=PW';"
+                                        class="w-100 h-100 object-fit-cover" alt="Thumb">
+                                </div>
+                                <div>
+                                    <h6 class="text-white fw-bold mb-2 fs-6" style="line-height: 1.4;">New Instant
+                                        Withdrawal System Live</h6>
+                                    <span class="text-light opacity-50 small"><i
+                                            class="far fa-clock me-1 text-warning"></i> Oct 20, 2026</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Categories Widget -->
+                        <div class="solid-trust-card p-4 rounded-4 shadow"
+                            style="border: 1px solid rgba(255,255,255,0.05);">
+                            <h5 class="fw-bold text-white mb-4">Categories</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-3"><a href="#"
+                                        class="text-light opacity-75 text-decoration-none d-flex justify-content-between align-items-center hover-gold transition-slow py-1"><span><i
+                                                class="fas fa-chevron-right text-warning small me-2"></i> Sports
+                                            Betting</span> <span
+                                            class="badge bg-secondary bg-opacity-25 text-white rounded-pill px-3">12</span></a>
+                                </li>
+                                <li class="mb-3"><a href="#"
+                                        class="text-light opacity-75 text-decoration-none d-flex justify-content-between align-items-center hover-gold transition-slow py-1"><span><i
+                                                class="fas fa-chevron-right text-warning small me-2"></i> Live
+                                            Casino</span> <span
+                                            class="badge bg-secondary bg-opacity-25 text-white rounded-pill px-3">8</span></a>
+                                </li>
+                                <li class="mb-3"><a href="#"
+                                        class="text-light opacity-75 text-decoration-none d-flex justify-content-between align-items-center hover-gold transition-slow py-1"><span><i
+                                                class="fas fa-chevron-right text-warning small me-2"></i> Strategy
+                                            Guides</span> <span
+                                            class="badge bg-secondary bg-opacity-25 text-white rounded-pill px-3">15</span></a>
+                                </li>
+                                <li class="mb-1"><a href="#"
+                                        class="text-light opacity-75 text-decoration-none d-flex justify-content-between align-items-center hover-gold transition-slow py-1"><span><i
+                                                class="fas fa-chevron-right text-warning small me-2"></i> Platform
+                                            Updates</span> <span
+                                            class="badge bg-secondary bg-opacity-25 text-white rounded-pill px-3">4</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer position-relative">
+        <div class="footer-animated-line"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <a href="index.html" class="footer-logo text-white text-decoration-none">
+                        <img src="assets/logo.png" alt="Reddy Book .Club Logo"
+                            style="height: 50px; object-fit: contain;">
+                    </a>
+                    <p class="small mt-3 pe-lg-5 text-light opacity-75">The leading premium platform for online sports
+                        betting and live casino entertainment. Enjoy fast payouts, deep markets, and unparalleled
+                        security.</p>
+                </div>
+                <div class="col-lg-2 col-6 mb-4">
+                    <h5 class="footer-heading text-warning">Play Now</h5>
+                    <a href="#" class="footer-link hover-gold">Sports Betting</a>
+                    <a href="#" class="footer-link hover-gold">Live Casino</a>
+                    <a href="#" class="footer-link hover-gold">Slot Games</a>
+                    <a href="#" class="footer-link hover-gold">Virtual Sports</a>
+                </div>
+                <div class="col-lg-2 col-6 mb-4">
+                    <h5 class="footer-heading text-warning">Platform</h5>
+                    <a href="#" class="footer-link hover-gold">Promotions</a>
+                    <a href="#" class="footer-link hover-gold">VIP Club</a>
+                    <a href="#" class="footer-link hover-gold">Tournaments</a>
+                    <a href="#" class="footer-link hover-gold">Mobile App</a>
+                </div>
+                <div class="col-lg-2 col-6 mb-4">
+                    <h5 class="footer-heading text-warning">Support</h5>
+                    <a href="#" class="footer-link hover-gold">Help Center</a>
+                    <a href="#" class="footer-link hover-gold">Payment Methods</a>
+                    <a href="#" class="footer-link hover-gold">Betting Rules</a>
+                    <a href="contact.html" class="footer-link hover-gold">Contact Us</a>
+                </div>
+                <div class="col-lg-2 col-6 mb-4">
+                    <h5 class="footer-heading text-warning">Company</h5>
+                    <a href="about.html" class="footer-link hover-gold">About Us</a>
+                    <a href="#" class="footer-link hover-gold">Responsible Gaming</a>
+                    <a href="#" class="footer-link hover-gold">Privacy Policy</a>
+                    <a href="#" class="footer-link hover-gold">Terms of Service</a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center mt-5 pt-4 border-top border-secondary">
+                <div class="small">&copy; 2026 REDDY BOOK .CLUB. All rights reserved.</div>
+                <div class="d-flex gap-3">
+                    <a href="#" class="hover-white"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="hover-white"><i class="bi bi-discord"></i></a>
+                    <a href="#" class="hover-white"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="hover-white"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
